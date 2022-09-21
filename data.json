@@ -1,0 +1,61 @@
+{
+	"images": {
+        "title": "Images",
+		"resources": [
+			{"name": "Pixabay", "url": "https://pixabay.com/", "model": "free"},
+			{"name": "Pexels", "url": "https://www.pexels.com/", "model": "free"},
+			{"name": "Unsplash", "url": "https://unsplash.com/", "model": "free"},
+			{"name": "Stockvault", "url": "https://www.stockvault.net/", "model": "free"},
+			{"name": "Isorepublic", "url": "https://isorepublic.com/", "model": "free"},
+			{"name": "Foter", "url": "https://foter.com/", "model": "free"},
+			{"name": "Jeshoots", "url": "https://jeshoots.com/", "model": "free"},
+            {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"}
+		]		
+	},
+    "pages": {
+        "title": "Pages",
+		"resources": [
+			{"name": "Pixabay", "url": "https://pixabay.com/", "model": "free"},
+			{"name": "Pexels", "url": "https://www.pexels.com/", "model": "free"},
+			{"name": "Unsplash", "url": "https://unsplash.com/", "model": "free"},
+			{"name": "Stockvault", "url": "https://www.stockvault.net/", "model": "free"},
+			{"name": "Isorepublic", "url": "https://isorepublic.com/", "model": "free"},
+			{"name": "Foter", "url": "https://foter.com/", "model": "free"},
+			{"name": "Jeshoots", "url": "https://jeshoots.com/", "model": "free"},
+            {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"}
+		]		
+	},
+	"illustrations": {
+        "title": "Illustration and icons",
+		"resources": [
+			{"name": "Loading.io", "url": "https://loading.io/", "model": "free"}
+		]		
+	},
+	"fonts": {
+        "title": "Fonts",
+		"resources": [
+			{"name": "Google fonts", "url": "https://fonts.google.com/", "model": "free"},
+			{"name": "Dafont", "url": "https://www.dafont.com/", "model": "free"},
+			{"name": "1001freefonts", "url": "https://www.1001freefonts.com/", "model": "free"}			
+		]		
+	},
+	"colors": {
+        "title": "Colors",
+		"resources": [
+			{"name": "Paleton", "url": "https://paletton.com/", "model": "free"},
+			{"name": "Coolors.co", "url": "https://color.adobe.com/", "model": "free"},
+			{"name": "Adobe color", "url": "https://color.adobe.com/", "model": "free"},
+			{"name": "Color space", "url": "https://mycolor.space/", "model": "free"}
+		]		
+	},
+	"design": {
+        "title": "Design and inspirations",
+		"resources": [
+			{"name": "Paleton", "url": "https://dribbble.com/", "model": "free"},
+			{"name": "Behance", "url": "https://behance.net/", "model": "free"},
+			{"name": "Designs inspiration", "url": "https://www.designspiration.com/", "model": "free"},
+			{"name": "Webdesign inspiration", "url": "https://www.webdesign-inspiration.com/", "model": "free"},
+			{"name": "Site inspire", "url": "https://www.siteinspire.com/", "model": "free"}
+		]		
+	}
+}
