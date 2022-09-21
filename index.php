@@ -10,8 +10,11 @@ $json_file = file_get_contents('data.json');
 	<title>Resources</title>	
 	<link rel="stylesheet" href="assets/style.css">	
 </head>
-<body>	
-<h3>Table of contentsss</h3>
+<body>
+<h3>Table of contents (<span style="color: #136F63">free</span> | 
+	<span style="color: #DA4167">paid</span> | ❤️ Favorite) |
+	🖥️ Desktop app)
+</h3>
 <nav>
 	<ul class="menu">
 		<li class="menu__item">
@@ -29,6 +32,9 @@ $json_file = file_get_contents('data.json');
 		<li class="menu__item">
 			<a href="#design">Design</a>
 		</li>
+		<li class="menu__item">
+			<a href="#tools">Tools</a>
+		</li>
 	</ul>
 </nav>
 
@@ -42,6 +48,8 @@ $json_file = file_get_contents('data.json');
 	<div class="box" id="colors"></div>
 
 	<div class="box" id="design"></div>
+
+	<div class="box" id="tools"></div>
 </div>
 <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
 <script>

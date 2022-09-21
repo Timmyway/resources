@@ -2,48 +2,37 @@
 	"images": {
         "title": "Images",
 		"resources": [
-			{"name": "Pixabay", "url": "https://pixabay.com/", "model": "free"},
-			{"name": "Pexels", "url": "https://www.pexels.com/", "model": "free"},
-			{"name": "Unsplash", "url": "https://unsplash.com/", "model": "free"},
+			{"name": "❤️ Pixabay", "url": "https://pixabay.com/", "model": "free"},
+			{"name": "❤️ Pexels", "url": "https://www.pexels.com/", "model": "free"},
+			{"name": "❤️ Unsplash", "url": "https://unsplash.com/", "model": "free"},
 			{"name": "Stockvault", "url": "https://www.stockvault.net/", "model": "free"},
 			{"name": "Isorepublic", "url": "https://isorepublic.com/", "model": "free"},
 			{"name": "Foter", "url": "https://foter.com/", "model": "free"},
 			{"name": "Jeshoots", "url": "https://jeshoots.com/", "model": "free"},
             {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"}
 		]		
-	},
-    "pages": {
-        "title": "Pages",
-		"resources": [
-			{"name": "Pixabay", "url": "https://pixabay.com/", "model": "free"},
-			{"name": "Pexels", "url": "https://www.pexels.com/", "model": "free"},
-			{"name": "Unsplash", "url": "https://unsplash.com/", "model": "free"},
-			{"name": "Stockvault", "url": "https://www.stockvault.net/", "model": "free"},
-			{"name": "Isorepublic", "url": "https://isorepublic.com/", "model": "free"},
-			{"name": "Foter", "url": "https://foter.com/", "model": "free"},
-			{"name": "Jeshoots", "url": "https://jeshoots.com/", "model": "free"},
-            {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"}
-		]		
-	},
+	},   
 	"illustrations": {
         "title": "Illustration and icons",
 		"resources": [
-			{"name": "Loading.io", "url": "https://loading.io/", "model": "free"}
+			{"name": "Loading.io", "url": "https://loading.io/", "model": "free"},
+            {"name": "Undraw.co", "url": "https://undraw.co/illustrations", "model": "free"}            
 		]		
 	},
 	"fonts": {
-        "title": "Fonts",
+        "title": "Typography",
 		"resources": [
-			{"name": "Google fonts", "url": "https://fonts.google.com/", "model": "free"},
+			{"name": "❤️ Google fonts", "url": "https://fonts.google.com/", "model": "free"},
 			{"name": "Dafont", "url": "https://www.dafont.com/", "model": "free"},
-			{"name": "1001freefonts", "url": "https://www.1001freefonts.com/", "model": "free"}			
+			{"name": "1001freefonts", "url": "https://www.1001freefonts.com/", "model": "free"},
+            {"name": "❤️ Emoji", "url": "https://emojipedia.org/fr", "model": "free"}            
 		]		
 	},
 	"colors": {
         "title": "Colors",
 		"resources": [
-			{"name": "Paleton", "url": "https://paletton.com/", "model": "free"},
-			{"name": "Coolors.co", "url": "https://color.adobe.com/", "model": "free"},
+			{"name": "❤️ Paleton", "url": "https://paletton.com/", "model": "free"},
+			{"name": "❤️ Coolors.co", "url": "https://color.adobe.com/", "model": "free"},
 			{"name": "Adobe color", "url": "https://color.adobe.com/", "model": "free"},
 			{"name": "Color space", "url": "https://mycolor.space/", "model": "free"}
 		]		
@@ -51,11 +40,24 @@
 	"design": {
         "title": "Design and inspirations",
 		"resources": [
-			{"name": "Paleton", "url": "https://dribbble.com/", "model": "free"},
+			{"name": "❤️ Dribble", "url": "https://dribbble.com/", "model": "free"},
 			{"name": "Behance", "url": "https://behance.net/", "model": "free"},
 			{"name": "Designs inspiration", "url": "https://www.designspiration.com/", "model": "free"},
 			{"name": "Webdesign inspiration", "url": "https://www.webdesign-inspiration.com/", "model": "free"},
 			{"name": "Site inspire", "url": "https://www.siteinspire.com/", "model": "free"}
+		]		
+	},
+    "tools": {
+        "title": "Tools",
+		"resources": [
+			{"name": "❤️ Gif editor", "url": "https://ezgif.com/", "model": "free"},			
+            {"name": "CSS inliner", "url": "https://www.campaignmonitor.com/resources/tools/css-inliner/", "model": "free"},
+            {"name": "W3C HTML validator", "url": "https://validator.w3.org/#validate_by_input", "model": "free"},
+            {"name": "❤️ HTML entity list", "url": "https://www.freeformatter.com/html-entities.html", "model": "free"},
+
+            {"name": "Ktk Gifmaker", "url": "https://timtest.kontikimedia.com/gifmaker/index.html", "model": "free"},
+            {"name": "Ktk Converter & Zipcode", "url": "https://timtest.kontikimedia.com/tools/b64.php", "model": "free"},
+            {"name": "🖥️ Ktk image optimizer", "url": "https://drive.google.com/file/d/15g4_AVcNyVibTjkZjG9kVXQ21KrId7iK/view?usp=sharing", "model": "free"}
 		]		
 	}
 }
