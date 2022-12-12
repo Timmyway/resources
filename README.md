@@ -1,4 +1,4 @@
-# Foobar
+# Front resources
 
 Static page that lists useful resources for frontend developers.
 
