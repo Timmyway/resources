@@ -5,19 +5,45 @@
 			{"name": "❤️ Pixabay", "url": "https://pixabay.com/", "model": "free"},
 			{"name": "❤️ Pexels", "url": "https://www.pexels.com/", "model": "free"},
 			{"name": "❤️ Unsplash", "url": "https://unsplash.com/", "model": "free"},
+			{"name": "❤️ Freepik", "url": "https://www.freepik.com/", "model": "free"},
 			{"name": "Stockvault", "url": "https://www.stockvault.net/", "model": "free"},
 			{"name": "Isorepublic", "url": "https://isorepublic.com/", "model": "free"},
 			{"name": "Foter", "url": "https://foter.com/", "model": "free"},
 			{"name": "Jeshoots", "url": "https://jeshoots.com/", "model": "free"},
             {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"}
 		]		
+	},
+	"design": {
+        "title": "Design",
+		"resources": [
+			{"name": "❤️ Canva", "url": "https://www.canva.com/fr_fr/", "model": "free"},
+			{"name": "❤️ Figma", "url": "https://figma.com/", "model": "free"},
+			{"name": "Photopea", "url": "https://www.photopea.com/", "model": "free"},
+			{"name": "Placeit", "url": "https://placeit.net/", "model": "free"},
+			{"name": "Postmywall", "url": "https://fr.postermywall.com/", "model": "free"}
+		]
 	},   
-	"illustrations": {
+	"icons": {
         "title": "Illustration and icons",
 		"resources": [
 			{"name": "Loading.io", "url": "https://loading.io/", "model": "free"},
-            {"name": "Undraw.co", "url": "https://undraw.co/illustrations", "model": "free"}            
+            {"name": "❤️ Undraw.co", "url": "https://undraw.co/illustrations", "model": "free"},
+			{"name": "❤️ Icons8", "url": "https://icones8.fr/", "model": "free"},
+			{"name": "Lottiefiles", "url": "https://lottiefiles.com/", "model": "free"},
+			{"name": "Iconscout", "url": "https://iconscout.com/", "model": "free"}
 		]		
+	},
+	"ai": {
+		"title": "AI tools",
+		"resources": [
+			{"name": "❤️ Chat GPT", "url": "https://chatgpt.com/", "model": "free"},
+			{"name": "❤️ Perplexity", "url": "https://www.perplexity.ai/", "model": "free"},
+			{"name": "❤️ Gemini", "url": "https://gemini.google.com/", "model": "free"},
+			{"name": "Poe", "url": "https://poe.com/", "model": "free"},
+			{"name": "Dreamina", "url": "https://dreamina.capcut.com/", "model": "free"},
+			{"name": "Websim", "url": "https://websim.ai/", "model": "free"},
+			{"name": "Bing image", "url": "https://www.bing.com/images/create", "model": "free"}
+		]
 	},
 	"fonts": {
         "title": "Typography",
@@ -37,8 +63,8 @@
 			{"name": "Color space", "url": "https://mycolor.space/", "model": "free"}
 		]		
 	},
-	"design": {
-        "title": "Design and inspirations",
+	"inspirations": {
+        "title": "Inspirations",
 		"resources": [
 			{"name": "❤️ Dribble", "url": "https://dribbble.com/", "model": "free"},
 			{"name": "Behance", "url": "https://behance.net/", "model": "free"},
@@ -47,6 +73,20 @@
 			{"name": "Site inspire", "url": "https://www.siteinspire.com/", "model": "free"}
 		]		
 	},
+	"css": {
+		"title": "CSS",
+		"resources": [
+			{"name": "❤️ Shadows", "url": "https://getcssscan.com/css-box-shadow-examples", "model": "free"},
+			{"name": "❤️ CSS Gradient", "url": "https://cssgradient.io/", "model": "free"}
+		]
+	},
+	"manage": {
+		"title": "Manage",
+		"resources": [
+			{"name": "❤️ Notion", "url": "https://notion.so", "model": "free"},
+			{"name": "❤️ Trello", "url": "https://trello.com", "model": "free"}
+		]
+	},	
     "tools": {
         "title": "Tools",
 		"resources": [

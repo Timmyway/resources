@@ -17,76 +17,74 @@ $json_file = file_get_contents('data.json');
 </h3>
 <nav>
 	<ul class="menu">
-		<li class="menu__item">
-			<a href="#images">Images</a>
-		</li>
-		<li class="menu__item">
-			<a href="#icons">Icons</a>
-		</li>
-		<li class="menu__item">
-			<a href="#fonts">Fonts</a>
-		</li>
-		<li class="menu__item">
-			<a href="#colors">Colors</a>
-		</li>
-		<li class="menu__item">
-			<a href="#design">Design</a>
-		</li>
-		<li class="menu__item">
-			<a href="#tools">Tools</a>
-		</li>
+		<?php 
+			$sections = ['images', 'icons', 'fonts', 'colors', 'design', 'inspirations', 'css', 'ai', 'tools'];
+			foreach ($sections as $section) {
+				echo '<li class="menu__item"><a href="#' . $section . '">' . ucfirst($section) . '</a></li>';
+			}
+		?>
 	</ul>
+
+	<!-- Resource Sections -->
+	<div id="app">
+		<?php 
+			foreach ($sections as $section) {
+				echo '<div class="box" id="' . $section . '"></div>';
+			}
+		?>
+	</div>
 </nav>
 
-<div id="app">
-	<div class="box" id="images"></div>
-
-	<div class="box" id="illustrations"></div>
-
-	<div class="box" id="fonts"></div>
-
-	<div class="box" id="colors"></div>
-
-	<div class="box" id="design"></div>
-
-	<div class="box" id="tools"></div>
-</div>
-<!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
 <script>
+	// Load JSON Data
 	try {
-		var jsonData = JSON.parse(`<?= $json_file ?>`);	
+		var jsonData = JSON.parse(`<?= $json_file ?>`);
 	} catch (error) {
-		console.log(error);
+		console.error(error);
 		var jsonData = null;
 	}
 
-	const resourceKeys = Object.keys(jsonData);
-	
-	function populate(resource) {
-		if (resource === null) return;
-		const parent = document.querySelector('#' + resource);
-		if (parent === null) return;
-		const resourceData = jsonData[resource];
-		// Create title
-		const h4 = document.createElement('h4');
-		h4.innerHTML = resourceData.title;
-		// Create resources
-		const list = document.createElement('ul');
-		list.classList.add('list');
-		// Add element to resources		
-		resourceData.resources.forEach((resource) => {
-			const li = document.createElement('li');
-			li.classList.add('list__item');
-			li.classList.add(resource.model);
-			li.innerHTML = `<a href="${resource.url}" target="_blank">${resource.name}</a>`;
-			list.appendChild(li);
+	// Function to create an element with specific attributes and classes
+	function createElement(tag, options = {}) {
+		const element = document.createElement(tag);
+		if (options.classes) {
+			element.classList.add(...options.classes);
+		}
+		if (options.html) {
+			element.innerHTML = options.html;
+		}
+		if (options.attrs) {
+			Object.keys(options.attrs).forEach(attr => element.setAttribute(attr, options.attrs[attr]));
+		}
+		return element;
+	}
+
+	// Populate content for each resource section
+	function populateSection(resourceKey) {
+		if (!jsonData || !jsonData[resourceKey]) return;
+
+		const resourceData = jsonData[resourceKey];
+		const parent = document.querySelector('#' + resourceKey);
+		if (!parent) return;
+
+		// Create and append title
+		const title = createElement('h4', { html: resourceData.title });
+		parent.appendChild(title);
+
+		// Create and append resource list
+		const list = createElement('ul', { classes: ['list'] });
+		resourceData.resources.forEach(resource => {
+			const listItem = createElement('li', {
+				classes: ['list__item', resource.model],
+				html: `<a href="${resource.url}" target="_blank">${resource.name}</a>`
+			});
+			list.appendChild(listItem);
 		});
-		// Add to parent
-		parent.appendChild(h4);
 		parent.appendChild(list);
 	}
 
-	resourceKeys.forEach(resource => populate(resource));
+	// Populate all sections dynamically
+	Object.keys(jsonData || {}).forEach(populateSection);
 </script>
 </body>
 </html>
