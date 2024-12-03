@@ -77,7 +77,11 @@
 		"title": "CSS",
 		"resources": [
 			{"name": "❤️ Shadows", "url": "https://getcssscan.com/css-box-shadow-examples", "model": "free"},
-			{"name": "❤️ CSS Gradient", "url": "https://cssgradient.io/", "model": "free"}
+			{"name": "❤️ CSS Gradient", "url": "https://cssgradient.io/", "model": "free"},
+			{"name": "❤️ Magic pattern", "url": "https://www.magicpattern.design/tools/css-backgrounds", "model": "free"},
+			{"name": "10015", "url": "https://10015.io/tools/css-background-pattern-generator", "model": "free"},
+			{"name": "CSS Portal", "url": "https://www.cssportal.com/css-pattern-generator/", "model": "free"},
+			{"name": "CSS Pattern", "url": "https://css-pattern.com/", "model": "free"}
 		]
 	},
 	"manage": {
