@@ -1,4 +1,4 @@
-## Installation
+## Installation (Optional)
 
 Launch a PHP server by typing this command in the terminal: ```php -S localhost:8000```.
 Now open your browser at the following address: http://localhost:8000.
@@ -39,9 +39,10 @@ Simple yet powerful tools for creating captivating designs.
 ## 🎭 **Illustrations and Icons**
 Add impactful visuals with these resources.
 
+- [Flaticon](https://www.flaticon.com/) : A massive library of vector icons, perfect for your web and design projects, offering both free and premium options.
+- [❤️ Icons8](https://icons8.com/) : A comprehensive collection of free and premium icons, illustrations, and photos to enhance your designs.
 - [Loading.io](https://loading.io/) : Icon and animation generator.
 - ❤️ [Undraw.co](https://undraw.co/illustrations) : Modern and customizable illustrations.
-- ❤️ [Icons8](https://icones8.fr/) : Library of free icons, illustrations, and photos.
 - [Lottiefiles](https://lottiefiles.com/) : Light and interactive animations.
 - [Iconscout](https://iconscout.com/) : Icons and illustrations for your designs.
 
@@ -78,6 +79,7 @@ Create harmonious and inspiring color palettes.
 
 - ❤️ [Paleton](https://paletton.com/) : Intuitive palette generator.
 - ❤️ [Coolors.co](https://color.adobe.com/) : Powerful tool for creating color palettes.
+- ❤️ [Colorhunt](https://colorhunt.co) : A curated collection of beautiful and trendy color palettes, perfect for any design project.
 - [Adobe Color](https://color.adobe.com/) : Advanced tool for working with colors.
 - [Color space](https://mycolor.space/) : Gradient and palette generator.
 
@@ -121,12 +123,12 @@ Practical utilities for specific tasks.
 - [CSS inliner](https://www.campaignmonitor.com/resources/tools/css-inliner/) : Converts CSS to inline.
 - [W3C HTML validator](https://validator.w3.org/#validate_by_input) : Check the validity of your HTML files.
 - ❤️ [HTML entity list](https://www.freeformatter.com/html-entities.html) : Full list of HTML entities.
-- [🖥️ Ktk image optimizer](https://drive.google.com/file/d/15g4_AVcNyVibTjkZjG9kVXQ21KrId7iK/view?usp=sharing) : Image optimization.
+- [🖥️ Tim Image Optimizer](https://drive.google.com/file/d/15g4_AVcNyVibTjkZjG9kVXQ21KrId7iK/view?usp=sharing) : Image optimization.
 
 ---
 
-💡 **Got more amazing resources?** Share them with me in a comment or message. 🙌  
-✨ *Don’t forget to save and share this list with your creative colleagues or friends!*
+💡 Got more amazing resources? Feel free to open an issue or contribute by submitting a pull request! 🙌
+✨ Don’t forget to save and share this list with your creative colleagues or friends!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
