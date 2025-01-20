@@ -18,7 +18,7 @@ $json_file = file_get_contents('data.json');
 <nav>
 	<ul class="menu">
 		<?php 
-			$sections = ['images', 'icons', 'fonts', 'colors', 'design', 'inspirations', 'css', 'ai', 'tools'];
+			$sections = ['images', 'icons', 'fonts', 'colors', 'design', 'inspirations', 'css', 'video', 'ai', 'tools'];
 			foreach ($sections as $section) {
 				echo '<li class="menu__item"><a href="#' . $section . '">' . ucfirst($section) . '</a></li>';
 			}

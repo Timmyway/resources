@@ -2,15 +2,16 @@
 	"images": {
         "title": "Images",
 		"resources": [
-			{"name": "❤️ Pixabay", "url": "https://pixabay.com/", "model": "free"},
 			{"name": "❤️ Pexels", "url": "https://www.pexels.com/", "model": "free"},
+			{"name": "❤️ Pixabay", "url": "https://pixabay.com/", "model": "free"},			
 			{"name": "❤️ Unsplash", "url": "https://unsplash.com/", "model": "free"},
 			{"name": "❤️ Freepik", "url": "https://www.freepik.com/", "model": "free"},
 			{"name": "Stockvault", "url": "https://www.stockvault.net/", "model": "free"},
 			{"name": "Isorepublic", "url": "https://isorepublic.com/", "model": "free"},
 			{"name": "Foter", "url": "https://foter.com/", "model": "free"},
 			{"name": "Jeshoots", "url": "https://jeshoots.com/", "model": "free"},
-            {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"}
+            {"name": "Shutterstock", "url": "https://www.shutterstock.com/", "model": "paid"},
+			{"name": "Envato elements", "url": "https://elements.envato.com/", "model": "paid"}
 		]		
 	},
 	"design": {
@@ -39,10 +40,21 @@
 			{"name": "❤️ Chat GPT", "url": "https://chatgpt.com/", "model": "free"},
 			{"name": "❤️ Perplexity", "url": "https://www.perplexity.ai/", "model": "free"},
 			{"name": "❤️ Gemini", "url": "https://gemini.google.com/", "model": "free"},
+			{"name": "❤️ Dreamina", "url": "https://dreamina.capcut.com/", "model": "free"},
 			{"name": "Poe", "url": "https://poe.com/", "model": "free"},
-			{"name": "Dreamina", "url": "https://dreamina.capcut.com/", "model": "free"},
+			{"name": "Bolt", "url": "http://bolt.new/", "model": "free"},
 			{"name": "Websim", "url": "https://websim.ai/", "model": "free"},
-			{"name": "Bing image", "url": "https://www.bing.com/images/create", "model": "free"}
+			{"name": "Bing image", "url": "https://www.bing.com/images/create", "model": "free"},
+			{"name": "Leonardo AI", "url": "https://leonardo.ai/", "model": "free"},
+			{"name": "ElevenLabs", "url": "https://elevenlabs.io/", "model": "free"},
+			{"name": "Invideo AI", "url": "https://invideo.io/", "model": "free"}
+		]
+	},
+	"video": {
+		"title": "Video",
+		"resources": [
+			{"name": "Capcut", "url": "https://www.capcut.com/", "model": "free"},
+			{"name": "Davinci Resolve", "url": "https://www.blackmagicdesign.com/products/davinciresolve", "model": "free"}			
 		]
 	},
 	"fonts": {
@@ -81,7 +93,8 @@
 			{"name": "❤️ Magic pattern", "url": "https://www.magicpattern.design/tools/css-backgrounds", "model": "free"},
 			{"name": "10015", "url": "https://10015.io/tools/css-background-pattern-generator", "model": "free"},
 			{"name": "CSS Portal", "url": "https://www.cssportal.com/css-pattern-generator/", "model": "free"},
-			{"name": "CSS Pattern", "url": "https://css-pattern.com/", "model": "free"}
+			{"name": "CSS Pattern", "url": "https://css-pattern.com/", "model": "free"},
+			{"name": "Remove bg", "url": "https://www.remove.bg/", "model": "free"}			
 		]
 	},
 	"manage": {
@@ -90,18 +103,15 @@
 			{"name": "❤️ Notion", "url": "https://notion.so", "model": "free"},
 			{"name": "❤️ Trello", "url": "https://trello.com", "model": "free"}
 		]
-	},	
+	},
     "tools": {
         "title": "Tools",
 		"resources": [
 			{"name": "❤️ Gif editor", "url": "https://ezgif.com/", "model": "free"},			
             {"name": "CSS inliner", "url": "https://www.campaignmonitor.com/resources/tools/css-inliner/", "model": "free"},
             {"name": "W3C HTML validator", "url": "https://validator.w3.org/#validate_by_input", "model": "free"},
-            {"name": "❤️ HTML entity list", "url": "https://www.freeformatter.com/html-entities.html", "model": "free"},
-
-            {"name": "Ktk Gifmaker", "url": "https://timtest.kontikimedia.com/gifmaker/index.html", "model": "free"},
-            {"name": "Ktk Converter & Zipcode", "url": "https://timtest.kontikimedia.com/tools/b64.php", "model": "free"},
-            {"name": "🖥️ Ktk image optimizer", "url": "https://drive.google.com/file/d/15g4_AVcNyVibTjkZjG9kVXQ21KrId7iK/view?usp=sharing", "model": "free"}
+            {"name": "❤️ HTML entity list", "url": "https://www.freeformatter.com/html-entities.html", "model": "free"},            
+            {"name": "🖥️ Image optimizer", "url": "https://drive.google.com/file/d/15g4_AVcNyVibTjkZjG9kVXQ21KrId7iK/view?usp=sharing", "model": "free"}			
 		]		
 	}
 }
